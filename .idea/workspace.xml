@@ -42,8 +42,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="60f2fbdb-0005-44de-a3a0-cd7c19f90d33" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/stack_ds_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/stack_ds_int.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test/stack_ds_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/stack_ds_int_test.rb" afterDir="false" />
     </list>
@@ -87,6 +86,72 @@
       <recent name="$PROJECT_DIR$/test" />
     </key>
   </component>
+  <component name="RunManager" selected="Test::Unit/Shoulda/Minitest.test_initialize_declared">
+    <configuration name="StackIntTest" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="stack_ds_int" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/stack_ds_int_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test_initialize_declared" type="TestUnitRunConfigurationType" factoryName="Test::Unit/Shoulda/Minitest" temporary="true" nameIsGenerated="true">
+      <module name="stack_ds_int" />
+      <predefined_log_file enabled="true" id="RUBY_TESTUNIT" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-Ilib:test" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs>
+        <env name="JRUBY_OPTS" value="-X+O" />
+      </envs>
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="true" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="$MODULE_DIR$/test/stack_ds_int_test.rb" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_METHOD_NAME" VALUE="test_initialize_declared" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_METHOD" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Test::Unit/Shoulda/Minitest.test_initialize_declared" />
+        <item itemvalue="Test::Unit/Shoulda/Minitest.StackIntTest" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
   <component name="SvnConfiguration">
     <configuration />
@@ -125,10 +190,17 @@
       <option name="project" value="STACK" />
       <updated>1584122155964</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Wrote Code, Tests&#10;&#10;Wrote the interface code. Wrote the tests.">
+      <created>1584128497257</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1584128497257</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Stack #Setup" />
+        <option name="defaultSearch" value="project: Stack #{In Progress} " />
         <option name="shouldFormatCommitMessage" value="true" />
         <username>admin</username>
       </YouTrack>
@@ -141,7 +213,8 @@
     <MESSAGE value="Initialized Remote Repository&#10;&#10;Setup remote repository." />
     <MESSAGE value="Ran setuprmgen script&#10;&#10;Initialized project files." />
     <MESSAGE value="Setup Documentation&#10;&#10;Added memorandums. Wrote the README.md.&#10;&#10;STACK-12 State Done&#10;STACK-13 State Done&#10;STACK-17 State Done" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setup Documentation&#10;&#10;Added memorandums. Wrote the README.md.&#10;&#10;STACK-12 State Done&#10;STACK-13 State Done&#10;STACK-17 State Done" />
+    <MESSAGE value="Wrote Code, Tests&#10;&#10;Wrote the interface code. Wrote the tests." />
+    <option name="LAST_COMMIT_MESSAGE" value="Wrote Code, Tests&#10;&#10;Wrote the interface code. Wrote the tests." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -149,26 +222,26 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="436" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1584119406133" />
-    <state x="209" y="95" key="CommitChangelistDialog2" timestamp="1584128361602">
+    <state x="209" y="95" key="CommitChangelistDialog2" timestamp="1584128497032">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="209" y="95" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584128361602" />
-    <state width="1578" height="271" key="GridCell.Tab.0.bottom" timestamp="1584119950692">
+    <state x="209" y="95" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584128497032" />
+    <state width="1578" height="271" key="GridCell.Tab.0.bottom" timestamp="1584128725220">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1578" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1584119950692" />
-    <state width="1578" height="271" key="GridCell.Tab.0.center" timestamp="1584119950691">
+    <state width="1578" height="271" key="GridCell.Tab.0.bottom/0.23.1680.975@0.23.1680.975" timestamp="1584128725220" />
+    <state width="1578" height="271" key="GridCell.Tab.0.center" timestamp="1584128725219">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1578" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1584119950691" />
-    <state width="1578" height="271" key="GridCell.Tab.0.left" timestamp="1584119950691">
+    <state width="1578" height="271" key="GridCell.Tab.0.center/0.23.1680.975@0.23.1680.975" timestamp="1584128725219" />
+    <state width="1578" height="271" key="GridCell.Tab.0.left" timestamp="1584128725219">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1578" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1584119950691" />
-    <state width="1578" height="271" key="GridCell.Tab.0.right" timestamp="1584119950692">
+    <state width="1578" height="271" key="GridCell.Tab.0.left/0.23.1680.975@0.23.1680.975" timestamp="1584128725219" />
+    <state width="1578" height="271" key="GridCell.Tab.0.right" timestamp="1584128725219">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state width="1578" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1584119950692" />
+    <state width="1578" height="271" key="GridCell.Tab.0.right/0.23.1680.975@0.23.1680.975" timestamp="1584128725219" />
     <state x="345" y="149" key="SettingsEditor" timestamp="1584119306615">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -185,5 +258,9 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="501" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1584121724558" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/stack_ds_int@test_initialize_declared.rcov" NAME="test_initialize_declared Coverage Results" MODIFIED="1584128705309" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="stack_ds_int" />
+    <SUITE FILE_PATH="coverage/stack_ds_int@StackIntTest.rcov" NAME="StackIntTest Coverage Results" MODIFIED="1584128590077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="stack_ds_int" />
   </component>
 </project>

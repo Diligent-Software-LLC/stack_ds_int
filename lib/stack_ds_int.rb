@@ -8,14 +8,14 @@ require "stack_ds_int/version"
 # $DESCRIPTION$.
 class StackInt
 
-  # initialize(beginning_data = nil).
+  # initialize(data = nil).
   # @abstract
   # Constructor.
-  # @param [Data] beginning_data
+  # @param [Data] data
   # An initial data value or object.
   # @return [Stack]
   # A Stack, size 1.
-  def initialize(beginning_data = nil)
+  def initialize(data = nil)
   end
 
   # copy_constructor().
@@ -51,33 +51,33 @@ class StackInt
   def top()
   end
 
-  # ==(stack).
+  # ==(stack = nil).
   # @abstract
   # Attribute equality operator.
   # @param [Stack] stack
   # A Stack.
   # @return [TrueClass, FalseClass] attribute_equality
   # True in the case the attributes share the same values, and false otherwise.
-  def ==(stack)
+  def ==(stack = nil)
   end
 
-  # ===(stack).
+  # ===(stack = nil).
   # @abstract
   # Case equality operator.
   # @param [Stack] stack
   # A Stack.
   # @return [TrueClass, FalseClass] identity_equality
   # True in the case self's object_id equals stack's object_id.
-  def ===(stack)
+  def ===(stack = nil)
   end
 
-  # push(node).
+  # push(data).
   # @abstract
-  # Pushes a node on the stack.
-  # @param [Node] node
-  # A Node. The Node becomes the top node.
+  # Pushes data on the stack.
+  # @param [Data] data
+  # A data object. The data becomes the stack top.
   # @return [NilClass] nil
-  def push(node)
+  def push(data)
   end
 
   # pop().

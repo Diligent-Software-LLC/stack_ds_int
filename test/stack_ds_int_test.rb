@@ -58,7 +58,7 @@ class StackIntTest < Minitest::Test
   # @abstract
   # The initialize method was declared.
   def test_initialize_declared()
-    assert_respond_to(Stack, 'initialize')
+    assert_respond_to(StackInt, 'new')
   end
 
   # test_copy_cons_dec().
