@@ -1,6 +1,6 @@
 # stack_ds_int [![Gem Version](https://badge.fury.io/rb/stack_ds_int.svg)](https://badge.fury.io/rb/stack_ds_int) ![Gem](https://img.shields.io/gem/dt/stack_ds_int) [![Build Status](https://travis-ci.com/Diligent-Software-LLC/stack_ds_int.svg?branch=master)](https://travis-ci.com/Diligent-Software-LLC/stack_ds_int)
 
-A Stack data structure library interface.
+A Stack data structure interface.
 
 ## Installation
 

@@ -12,15 +12,15 @@ the constants and method signatures. Donations support continuous improvement
 and maintenance. Make a donation at the project's collective page:
 https://opencollective.com/stack. One-time and recurring donations are available
 at $1, $2, $4, $8, and $16. Greatly appreciated.}
-  spec.homepage              = "https://docs.diligentsoftware.org/stack"
+  spec.homepage                  = "https://docs.diligentsoftware.org/stack-1"
   spec.license               = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.6.5")
 
   spec.metadata['homepage_uri']    = spec.homepage
   spec.metadata['source_code_uri'] =
       "https://github.com/Diligent-Software-LLC/stack_ds_int"
-  spec.metadata['changelog_uri']   =
-      "https://docs.diligentsoftware.org/stack#changelog"
+  spec.metadata['changelog_uri'] =
+      "https://docs.diligentsoftware.org/stack-1"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
