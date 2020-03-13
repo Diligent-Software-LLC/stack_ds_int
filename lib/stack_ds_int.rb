@@ -1,7 +1,11 @@
+# Copyright (C) 2020 Diligent Software LLC. All rights reserved. Released
+# under the MIT License.
+
 require "stack_ds_int/version"
 
-module StackDsInt
-  class Error < StandardError;
-  end
-  # Your code goes here...
+# StackInt.
+# @abstract
+# $DESCRIPTION$.
+class StackInt
 end
+

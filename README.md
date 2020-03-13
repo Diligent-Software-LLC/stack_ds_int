@@ -1,36 +1,34 @@
-# StackDsInt
+# stack_ds_int [![Gem Version](https://badge.fury.io/rb/stack_ds_int.svg)](https://badge.fury.io/rb/stack_ds_int) ![Gem](https://img.shields.io/gem/dt/stack_ds_int) [![Build Status](https://travis-ci.com/Diligent-Software-LLC/stack_ds_int.svg?branch=master)](https://travis-ci.com/Diligent-Software-LLC/stack_ds_int)
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/stack_ds_int`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+$DESCRIPTION$
 
 ## Installation
 
-Add this line to your application's Gemfile:
+- Refer the [installation](https://docs.diligentsoftware.org/$GROUP_SLUG/packages) page.
+- All versions <= $VERSIONS$ are unstable or incomplete.
 
-```ruby
-gem 'stack_ds_int'
-```
+## Documentation
 
-And then execute:
-
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install stack_ds_int
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+Refer the [documentation](https://docs.diligentsoftware.org/$GROUP_SLUG/documentation) page.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/stack_ds_int.
+### Donate
+
+Donations support continuous improvement and maintenance. The aim is a
+reliable, integrable, Node library. Make a donation at the project's
+collective page: https://opencollective.com/node. One-time and recurring 
+donations are available at $1, $2, $4, $8, and $16. Greatly appreciated.
+
+### Report Bugs
+
+Refer the [Bug Reporting Procedure](https://github.com/Diligent-Software-LLC/stack_ds_int/issues/$BR_ISSUE$).
+
+### Fix Bugs
+
+Refer the [Bug Fixing Procedure](https://github.com/Diligent-Software-LLC/stack_ds_int/issues/$BF_ISSUE$).
+
+### Improve Functionality
+
+Refer the [Improvements Procedure](https://github.com/Diligent-Software-LLC/stack_ds_int/issues/$IMP_ISSUE$).
 
