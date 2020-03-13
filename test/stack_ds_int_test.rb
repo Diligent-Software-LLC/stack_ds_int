@@ -51,6 +51,77 @@ class StackIntTest < Minitest::Test
   # @abstract
   # Set fixtures.
   def setup()
+    @plain = StackInt.new()
+  end
+
+  # test_constructor_declared().
+  # @abstract
+  # The initialize method was declared.
+  def test_initialize_declared()
+    assert_respond_to(Stack, 'initialize')
+  end
+
+  # test_copy_cons_dec().
+  # @abstract
+  # The copy constructor was declared.
+  def test_copy_cons_dec()
+    assert_respond_to(@plain, 'copy_constructor')
+  end
+
+  # test_size_dec().
+  # @abstract
+  # The size method was declared.
+  def test_size_dec()
+    assert_respond_to(@plain, 'size')
+  end
+
+  # test_empty_dec().
+  # @abstract
+  # The empty? method was declared.
+  def test_empty_dec()
+    assert_respond_to(@plain, 'empty?')
+  end
+
+  # test_push_dec().
+  # @abstract
+  # The push method was declared.
+  def test_push_dec()
+    assert_respond_to(@plain, 'push')
+  end
+
+  # test_pop_dec().
+  # @abstract
+  # The pop method was declared.
+  def test_pop_dec()
+    assert_respond_to(@plain, 'pop')
+  end
+
+  # test_attr_eq_dec().
+  # @abstract
+  # The attribute equality operator was declared.
+  def test_attr_eq_dec()
+    assert_respond_to(@plain, '==')
+  end
+
+  # test_case_eqop_dec().
+  # @abstract
+  # The case equality operator was declared.
+  def test_case_eqop_dec()
+    assert_respond_to(@plain, '===')
+  end
+
+  # test_inspect_dec().
+  # @abstract
+  # The inspect method was declared.
+  def test_inspect_dec()
+    assert_respond_to(@plain, 'inspect')
+  end
+
+  # test_ic_dec().
+  # @abstract
+  # The initialize_copy method was declared.
+  def test_ic_dec()
+    assert(@plain.private_methods.include?(:initialize_copy))
   end
 
   # teardown().
