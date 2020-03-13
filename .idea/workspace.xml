@@ -43,13 +43,8 @@
   <component name="ChangeListManager">
     <list default="true" id="60f2fbdb-0005-44de-a3a0-cd7c19f90d33" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.travis.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/stack_ds_int.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/stack_ds_int.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/stack_ds_int/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/stack_ds_int/version.rb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/stack_ds_int.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/stack_ds_int.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/stack_ds_int_test.rb" beforeDir="false" afterPath="$PROJECT_DIR$/test/stack_ds_int_test.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +52,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
@@ -99,7 +99,7 @@
       <updated>1584113917362</updated>
       <workItem from="1584113918801" duration="101000" />
       <workItem from="1584114039467" duration="631000" />
-      <workItem from="1584118373538" duration="1700000" />
+      <workItem from="1584118373538" duration="3292000" />
     </task>
     <task id="LOCAL-00001" summary="Initialized Remote Repository&#10;&#10;Setup remote repository.">
       <created>1584118432353</created>
@@ -108,10 +108,17 @@
       <option name="project" value="LOCAL" />
       <updated>1584118432353</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Ran setuprmgen script&#10;&#10;Initialized project files.">
+      <created>1584120422869</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1584120422869</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers>
       <YouTrack url="https://macbook-pro.local:8443">
-        <option name="defaultSearch" value="project: Stack #Setup " />
+        <option name="defaultSearch" value="project: Stack #Setup" />
         <option name="shouldFormatCommitMessage" value="true" />
         <username>admin</username>
       </YouTrack>
@@ -122,7 +129,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initialized Remote Repository&#10;&#10;Setup remote repository." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initialized Remote Repository&#10;&#10;Setup remote repository." />
+    <MESSAGE value="Ran setuprmgen script&#10;&#10;Initialized project files." />
+    <option name="LAST_COMMIT_MESSAGE" value="Ran setuprmgen script&#10;&#10;Initialized project files." />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -130,10 +138,10 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="436" y="175" key="#Servers/0.23.1680.975@0.23.1680.975" timestamp="1584119406133" />
-    <state x="426" y="112" key="CommitChangelistDialog2" timestamp="1584118431995">
+    <state x="426" y="112" key="CommitChangelistDialog2" timestamp="1584120422627">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
-    <state x="426" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584118431995" />
+    <state x="426" y="112" key="CommitChangelistDialog2/0.23.1680.975@0.23.1680.975" timestamp="1584120422627" />
     <state width="1578" height="271" key="GridCell.Tab.0.bottom" timestamp="1584119950692">
       <screen x="0" y="23" width="1680" height="975" />
     </state>
@@ -162,5 +170,9 @@
       <screen x="0" y="23" width="1680" height="975" />
     </state>
     <state x="428" y="235" width="816" height="550" key="find.popup/0.23.1680.975@0.23.1680.975" timestamp="1584120365456" />
+    <state x="501" y="237" width="670" height="676" key="search.everywhere.popup" timestamp="1584121724558">
+      <screen x="0" y="23" width="1680" height="975" />
+    </state>
+    <state x="501" y="237" width="670" height="676" key="search.everywhere.popup/0.23.1680.975@0.23.1680.975" timestamp="1584121724558" />
   </component>
 </project>

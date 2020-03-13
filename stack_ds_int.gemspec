@@ -6,15 +6,17 @@ Gem::Specification.new do |spec|
   spec.version               = VERSION
   spec.authors               = ["Bradley J. Tannor", "Diligent Software LLC"]
   spec.email                 = ["bradleytannor@gmail.com"]
-  spec.summary               = %q{$SUMMARY}
-  spec.description           = %q{$DESCRIPTION$}
-  spec.homepage              = "https://docs.diligentsoftware.org"
+  spec.summary               = %q{A Stack data structure interface.}
+  spec.description           = %q{A Stack data structure interface. }
+  spec.homepage              = "https://docs.diligentsoftware.org/stack"
   spec.license               = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.6.5")
 
   spec.metadata['homepage_uri']    = spec.homepage
-  spec.metadata['source_code_uri'] = "https://github.com/Diligent-Software-LLC/stack_ds_int"
-  spec.metadata['changelog_uri']   = "https://docs.diligentsoftware.org/$GROUP_SLUG/$PAGE_SLUG/changelog"
+  spec.metadata['source_code_uri'] =
+      "https://github.com/Diligent-Software-LLC/stack_ds_int"
+  spec.metadata['changelog_uri']   =
+      "https://docs.diligentsoftware.org/stack#changelog"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
