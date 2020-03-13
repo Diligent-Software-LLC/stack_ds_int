@@ -7,7 +7,11 @@ Gem::Specification.new do |spec|
   spec.authors               = ["Bradley J. Tannor", "Diligent Software LLC"]
   spec.email                 = ["bradleytannor@gmail.com"]
   spec.summary               = %q{A Stack data structure interface.}
-  spec.description           = %q{A Stack data structure interface. }
+  spec.description           = %q{A Stack data structure interface. Contains
+the constants and method signatures. Donations support continuous improvement
+and maintenance. Make a donation at the project's collective page:
+https://opencollective.com/stack. One-time and recurring donations are available
+at $1, $2, $4, $8, and $16. Greatly appreciated.}
   spec.homepage              = "https://docs.diligentsoftware.org/stack"
   spec.license               = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.6.5")
